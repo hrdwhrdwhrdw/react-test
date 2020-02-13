@@ -1,4 +1,6 @@
 import React from 'react';
+import Header from './Components/Header'
+import Stack from './Components/Stack';
 import './App.css';
 
 const App = () => {
@@ -8,27 +10,6 @@ const App = () => {
       <Stack />
     </div>
   );
-}
-
-const Header = () => {
-  return (
-    <ul>
-      <li>Home</li>
-      <li>News</li>
-      <li>About</li>
-    </ul>
-  )
-}
-
-const Stack = () => {
-  return (
-    <div className="App">
-      <ul>
-        <li>html</li>
-        <li>css</li>
-      </ul>
-    </div>
-  )
 }
 
 export default App;
